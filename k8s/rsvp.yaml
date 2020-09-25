@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rsvp-app
-        image: anillucky31/rsvpapp
+        image: anillucky31/rsvpapp:a5590f4b1626d5e742821c5bdf15ed66ba45ca21
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
